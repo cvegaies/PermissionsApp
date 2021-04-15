@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PermissionApp</string>
+    <string name="permission_title">Title of explanation</string>
+    <string name="permission_message">Text of explanation</string>
+</resources>
