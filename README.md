@@ -51,7 +51,7 @@ Se abre un proceso propio de Android en el que se solicita el permiso requerido.
 
 El usuario podrá responder denegando o permitiendo el acceso al
 recurso protegido. Una vez concluido este proceso, se vuelve a la aplicación. Se ejecutará el método onRequestPermissionsResult(), que es un
-método del *lifecycle* de la actividad.
+método del *lifecycle* de la actividad (7).
 
 > @Override  
 public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {  
