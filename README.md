@@ -19,7 +19,7 @@ Si se desarrollo una aplicación para versiones anteriores a Android 6 hay que c
  ... //comprobar el permiso  
 }
 
-También es posible realizar la comprobación directamente con una anotación que indica que ese código sólo es necesario si el Android en el que se ejecuta
+También es posible realizar la comprobación directamente con una anotación que indica que ese código sólo es necesario si la versión de Android en el que se ejecuta
 es una versión más moderna.
 
 > @SuppressLint("NewApi")  
